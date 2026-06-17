@@ -1,5 +1,39 @@
 # Changelog
 
+## [4.25.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.24.0...v4.25.0) (2026-06-17)
+
+
+### Features
+
+* **cli:** add Apify actor reachability audit ([#2867](https://github.com/mvanhorn/cli-printing-press/issues/2867)) ([b0c5b0b](https://github.com/mvanhorn/cli-printing-press/commit/b0c5b0ba1f33c256d9cd47b761da93750eb657a8))
+* **generator:** emit CLAUDE.md (@AGENTS.md) for printed CLIs ([#2959](https://github.com/mvanhorn/cli-printing-press/issues/2959)) ([70cc74c](https://github.com/mvanhorn/cli-printing-press/commit/70cc74cff3e6b5bdc68a590f876aeefe5e9c1328))
+
+
+### Bug Fixes
+
+* **catalog:** add health category ([#2868](https://github.com/mvanhorn/cli-printing-press/issues/2868)) ([9f9ff30](https://github.com/mvanhorn/cli-printing-press/commit/9f9ff305978e6e65b50b64d398076d4312cc9111))
+* **cli:** allow synthetic phase5 external credential skips ([#2866](https://github.com/mvanhorn/cli-printing-press/issues/2866)) ([89b27fc](https://github.com/mvanhorn/cli-printing-press/commit/89b27fcc268ebcc4f69e7da7f904040846de9ebf))
+* **cli:** block equals-form MCP root flags ([#3025](https://github.com/mvanhorn/cli-printing-press/issues/3025)) ([8606544](https://github.com/mvanhorn/cli-printing-press/commit/86065448654ca4ce7a1d3eb2b1174c6503cff0be))
+* **cli:** emit local data layer for syncable APIs ([#2881](https://github.com/mvanhorn/cli-printing-press/issues/2881)) ([a6da532](https://github.com/mvanhorn/cli-printing-press/commit/a6da5322b69039beae067d7eeb9a4fd69bf5f099))
+* **cli:** filter telemetry hosts in browser sniff ([#2865](https://github.com/mvanhorn/cli-printing-press/issues/2865)) ([08864e4](https://github.com/mvanhorn/cli-printing-press/commit/08864e4169a3c6ab40ebecf643773815ea93a96a))
+* **cli:** flag oauth2 refresh missing client id ([#2902](https://github.com/mvanhorn/cli-printing-press/issues/2902)) ([4ceaada](https://github.com/mvanhorn/cli-printing-press/commit/4ceaada8c78f7d5dc7ab541f55b47803581c6e15))
+* **cli:** guard read-only mcp positional write sinks ([#3037](https://github.com/mvanhorn/cli-printing-press/issues/3037)) ([cbcec34](https://github.com/mvanhorn/cli-printing-press/commit/cbcec34513dba1cb65666bb203273a34e7394cd1))
+* **cli:** guard unresolved path params ([#3027](https://github.com/mvanhorn/cli-printing-press/issues/3027)) ([f8476f5](https://github.com/mvanhorn/cli-printing-press/commit/f8476f52b0fad3a301c0d56a29f20416aa792ca9))
+* **cli:** honor auth preference in dogfood manifest ([#2878](https://github.com/mvanhorn/cli-printing-press/issues/2878)) ([99e73ac](https://github.com/mvanhorn/cli-printing-press/commit/99e73ac5ce882d8776bae92585d2b5eed7efacb4))
+* **cli:** ignore dangling OpenAPI security refs ([#3026](https://github.com/mvanhorn/cli-printing-press/issues/3026)) ([fc3e340](https://github.com/mvanhorn/cli-printing-press/commit/fc3e34098790009a630b6c57ee0c118e4859cc15))
+* **cli:** make generated auth hints scheme-aware ([#2875](https://github.com/mvanhorn/cli-printing-press/issues/2875)) ([8222735](https://github.com/mvanhorn/cli-printing-press/commit/822273573f2a9a0c8572a2839cdbc97241cc5e55))
+* **cli:** preserve authored generated descriptions ([#2870](https://github.com/mvanhorn/cli-printing-press/issues/2870)) ([a97cddc](https://github.com/mvanhorn/cli-printing-press/commit/a97cddc7d769dc88b529d76b1adc3afededa7898))
+* **cli:** preserve Windows companion CLI fallback ([#2876](https://github.com/mvanhorn/cli-printing-press/issues/2876)) ([a113f4c](https://github.com/mvanhorn/cli-printing-press/commit/a113f4c2b95e63d8289f34d0bb8b370cc22a6828))
+* **cli:** redact credential JSON keys in artifacts ([#3034](https://github.com/mvanhorn/cli-printing-press/issues/3034)) ([133e97d](https://github.com/mvanhorn/cli-printing-press/commit/133e97dc8d79c8ed1eb25e18fad94d254c13e046))
+* **cli:** route Substack writer endpoints globally ([#3018](https://github.com/mvanhorn/cli-printing-press/issues/3018)) ([66a6c8a](https://github.com/mvanhorn/cli-printing-press/commit/66a6c8aa6b5f8c40f92a55c4a478a6417b16c458))
+* **cli:** skip live dogfood placeholder fixture reads ([#3036](https://github.com/mvanhorn/cli-printing-press/issues/3036)) ([bd338f1](https://github.com/mvanhorn/cli-printing-press/commit/bd338f11a34abeac22c8b1a2040792b722cff8fd))
+* **cli:** skip novel wiring on command file collisions ([#3024](https://github.com/mvanhorn/cli-printing-press/issues/3024)) ([07d6d24](https://github.com/mvanhorn/cli-printing-press/commit/07d6d245c2fa311cb17fcccf9b10ecb32f49750e))
+* **cli:** strip raw sniff captures from packaged manuscripts ([#3033](https://github.com/mvanhorn/cli-printing-press/issues/3033)) ([f85808e](https://github.com/mvanhorn/cli-printing-press/commit/f85808e8cadec0da3b017721f8a8b09f8ae93c9b))
+* **cli:** use schema hints in generated examples ([#2874](https://github.com/mvanhorn/cli-printing-press/issues/2874)) ([175105f](https://github.com/mvanhorn/cli-printing-press/commit/175105f2be66a2afeaa118cad903f3db7e608789))
+* **cli:** warn on unenriched promote manifests ([#2871](https://github.com/mvanhorn/cli-printing-press/issues/2871)) ([3c14fcb](https://github.com/mvanhorn/cli-printing-press/commit/3c14fcbe21be17a1bbdd868ec680335ecc8642a6))
+* **skills:** resolve amend publish status by slug ([#3032](https://github.com/mvanhorn/cli-printing-press/issues/3032)) ([147119f](https://github.com/mvanhorn/cli-printing-press/commit/147119f56adb8c59515868a0e29a544e0f81179c))
+* skip permission test on Windows where Getuid is unsupported ([#2900](https://github.com/mvanhorn/cli-printing-press/issues/2900)) ([b3fbb2e](https://github.com/mvanhorn/cli-printing-press/commit/b3fbb2ec8c119d022b7f35e2dd49fba31fff6853))
+
 ## [4.24.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.23.1...v4.24.0) (2026-06-08)
 
 
